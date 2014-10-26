@@ -11,9 +11,10 @@ makeCacheMatrix <- function(x = matrix()) {
     m <- NULL      # creates empty m variable within this function
     set <- function(y) {
         # TODO: check there as well if matrix passed here
-        x <<- y    # set parent (calling) environment var x to y
-        m <<- NULL # set parent environment variable m to nothing
-        # parent environment here is that of cacheObject
+        x <<- y    # set parent frame (calling environment) var x to y
+        m <<- NULL # set parent frame variable m to nothing
+        # parent frame here is that of the cacheObject
+        # as this function is defined within that function
     }
     get <- function() x             # returns current x value of cacheObject
     setInvMatrix <- function(invM) m <<- invM # stores inverted matrix in m
