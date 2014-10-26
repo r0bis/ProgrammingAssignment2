@@ -4,7 +4,7 @@
 
 ... changed this file while practising **r0bis**
 
-## Main introduction by __R D Peng__
+## Main introduction by R D Peng
 
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
