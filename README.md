@@ -1,10 +1,11 @@
-### Introduction
+# Introduction
 
-## Note r0bis
+#### Note r0bis
 
 ... changed this file while practising **r0bis**
 
-## Main introduction (by R D Peng)
+## Main introduction 
+`                      (by R D Peng)`
 
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
@@ -109,3 +110,9 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+#### Really simple
+
+It is quite simple indeed, if you have git concepts clear in your head and use a tool convenient to you. I am trying out SmartGit which is free for educational and non-profit use and it works fine. In the past I have used commandline git for quick cloning and it has worked just fine.
+
+![SmartGit pictogram](smartgit.jpeg)
